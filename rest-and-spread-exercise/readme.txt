@@ -26,7 +26,7 @@ const findMin = (...args) => args.reduce((min, val) => min < val ? min : val);
 const mergeObjects = (objX, objY) => ({...objX, ...objY});
 
 // doubleAndReturnArgs
-// Write a function called doubleAndReturnArgs which accepts an array and a variable number of arguments. The function should return a new array with the original array values and all of additional arguments doubled.
+// Write a function called doubleAndReturnArgs which accepts an array and a variable number of arguments. The function should return a new array with the original //array values and all of additional arguments doubled.
 
 // doubleAndReturnArgs([1,2,3],4,4) // [1,2,3,8,8]
 // doubleAndReturnArgs([2],10,4) // [2, 20, 8]
